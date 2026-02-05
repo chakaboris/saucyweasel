@@ -1,0 +1,238 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    font-size:1rem;
+    margin:0;
+    padding:0;
+    background-color:#6a6a6a;
+}
+.screenwrap {
+    width: 640px;
+    align-items: center;
+    text-align: center;
+    display:flex;
+    flex-flow: row wrap;
+    padding: 15px;
+}
+
+.gamediv {
+    font-size: 1.5em;
+    padding: 15px;
+    margin:0;
+    display:flex;
+    flex-flow: row wrap;
+    width: 100%;
+    align-items: center;
+    box-sizing:border-box;
+}
+.gamescontainer {
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: stretch;
+}
+.content {
+    width: 50%;
+    margin:auto;
+    border:1em solid black;
+    padding: .5em;
+    box-sizing: border-box;
+    background-color:#ffffff;
+}
+
+.homediv {
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    background-color: black;
+    align-items:stretch;
+    text-align: center;
+    flex: 1;
+    flex-basis: auto;
+    height:100%;
+    margin: auto;
+    overflow: auto;
+}
+.rightbox {
+    font-size:1.5em;
+    padding:1em;
+    position:absolute;
+}
+
+.awaydiv {
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    background-color: black;
+    align-items:stretch;
+    text-align: center;
+    flex: 1;
+    flex-basis: auto;
+    height:100%;
+    margin: auto;
+    overflow: auto;
+
+}
+.stretcher {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    background-color:black;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.bottomstretcher {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    background-color:black;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.betform {
+    z-index: 5;
+    width: 50%;
+    height: 100vh;
+    margin:auto;
+    top:0;
+    left:25%;
+    right:25%;
+    border:1em solid black;
+    /* padding: .5em; */
+    box-sizing: border-box;
+    background-color: #000000;
+    display:none;
+    position:fixed;
+
+   
+}
+.betarea {
+    margin:auto;
+    
+
+}
+
+.betbutton {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    border:5px solid black;
+    padding:1em;
+    width:80%;
+    margin:auto;
+    font-size: 2em;
+    background-color:greenyellow;
+    display:block;
+}
+
+.cancelbutton {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    border:5px solid black;
+    color:white;
+    padding:.5em;
+    width:80%;
+    margin:auto;
+    font-size: 1em;
+    background-color:gray;
+    display:block;
+}
+
+table,td,th {
+    border: 2px solid black;
+    font-family: "Trebuchet MS", verdana;
+    font-weight: bold;
+    padding: 5px;
+    color:#000000;
+}
+table{
+    border-collapse: collapse;
+    width:100%;
+    box-sizing:border-box;
+}
+
+th{
+    height: 50px;
+    background-color:#bbb;
+}
+.tabletop{
+    background-color:#000000;
+    color:white;
+    height:auto;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+  box-sizing:border-box;
+  font-size: 1.5em;
+}
+
+ul li {
+  float: left;
+  width:50%;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  box-sizing:border-box;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #6a6a6a;
+}
+.picked {
+    background-color:#6a6a6a;
+    color:#000000;
+}
+a {
+  
+  color: white;
+  text-decoration: none;
+}
+
+.google-login-btn {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 5px;
+  background-color: #110404;
+  cursor: pointer;
+}
+.google-login-btn .icon {
+  display: inline-flex;
+  height: 100%;
+  padding: 15px 20px;
+  align-items: center;
+  justify-content: center;
+  background-color: #de55cd;
+  margin-right: 15px;
+}
+.google-login-btn .icon svg {
+  fill: #fff;
+}
+.google-login-btn:hover {
+  background-color: #403636;
+}
+.google-login-btn:hover .icon {
+  background-color: #de55cd;
+}
+@media (max-width: 1000px)
+{
+
+    .content {
+        width: 100%;
+    }
+    .betform{
+        width: 100%;
+        left:0;
+        right:0;
+    }
+}
